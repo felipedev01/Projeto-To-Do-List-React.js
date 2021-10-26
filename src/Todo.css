@@ -1,0 +1,16 @@
+.Container {
+  max-width: 900px;
+  margin: auto;
+  background-color: rgb(240, 248, 248);
+}.Container h1{
+
+  text-align: center;
+}.Container input{
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 10%;
+}.Container button{
+  position: relative;
+  right: 9.8%;
+}
+
