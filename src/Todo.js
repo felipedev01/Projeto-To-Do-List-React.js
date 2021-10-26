@@ -1,6 +1,8 @@
 
 import { useState } from 'react';
 import './Todo.css';
+import Lista from './Lista'
+
 
 function App() {
 
@@ -35,17 +37,9 @@ function App() {
         <button onClick={adicionarItem}>Add</button>
         <button onClick={deletarItem}>Delete </button>
       </form>
-      <ul>
-        {item.map(item=>{
 
-          return(
-            <li>{item}</li>
-          )
-        
-
-        })}
-        
-      </ul>
+      <Lista item={item}></Lista>
+     
     </div>
   );
 }
