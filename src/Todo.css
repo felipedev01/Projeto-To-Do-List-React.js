@@ -7,6 +7,9 @@
 }.Container h1{
 
   text-align: center;
+  font-family:cursive;
+  color: white;
+  padding-top: 1%;
 }.Container input{
   width: 76%;
     margin-left: 7%;
@@ -20,6 +23,9 @@
 }.Container ul{
 
   padding-bottom: 5%;
+  list-style: none;
+  color: white;
+  font-family: cursive;
 
 
 
